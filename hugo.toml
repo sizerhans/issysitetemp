@@ -1,0 +1,31 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+
+theme = 'art-portfolio-theme'
+
+[taxonomies]
+    tag = 'tags'
+
+[params]
+
+    columns = 3
+    title = 'Isabella Tessier'
+
+    [[params.navlinks]]
+    name = "Drawings"
+    url = "drawings"
+
+    [[params.navlinks]]
+    name = "Exhibitions"
+    url = "exhibitions"
+
+    [[params.navlinks]]
+    name = "Prints"
+    url = "prints"
+
+    [[params.navlinks]]
+    name = "About"
+    url = "about"
+
+
